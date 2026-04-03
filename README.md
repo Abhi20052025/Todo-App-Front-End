@@ -1,17 +1,65 @@
-# React + Vite
+# 📝 Todo App Frontend
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a Todo App built using React that helps users efficiently manage daily tasks. Users can add, delete, and mark tasks as completed. The app uses localStorage for data persistence, includes input validation, and provides a clean, responsive UI using Tailwind CSS.
 
-Currently, two official plugins are available:
+## 🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+* Add new tasks
+* Delete tasks
+* Mark tasks as completed
+* Persistent data using localStorage
+* Input validation (no empty tasks)
+* Responsive UI with Tailwind CSS
 
-## React Compiler
+## 🛠️ Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+* React.js
+* Tailwind CSS
+* JavaScript (ES6+)
 
-## Expanding the ESLint configuration
+## ▶️ Run Locally
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-"# Todo-App-Front-End" 
+1. Install dependencies:
+
+```bash id="l9zv0g"
+npm install
+```
+
+2. Start development server:
+
+```bash id="t9c8pr"
+npm run dev
+```
+
+## 🌐 Localhost
+
+```bash id="nq3o4r"
+http://localhost:5173
+```
+
+## 🔗 GitHub Repository
+
+```bash id="3i0s1v"
+https://github.com/Abhi20052025/Todo-App-Front-End
+```
+
+## 📁 Project Structure
+
+```id="0kqg7o"
+src/
+ ├── components/
+ ├── pages/
+ ├── hooks/
+ ├── App.jsx
+ └── main.jsx
+```
+
+## 📌 Notes
+
+* Ensure Node.js is installed
+* Data is stored in browser localStorage
+* Fully responsive design
+
+---
+
+✨ Simple, fast, and user-friendly Todo App built with modern frontend tools.
