@@ -62,4 +62,3 @@ src/
 
 ---
 
-✨ Simple, fast, and user-friendly Todo App built with modern frontend tools.
